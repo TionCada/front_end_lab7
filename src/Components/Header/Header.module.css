@@ -1,0 +1,18 @@
+.container {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    border-bottom: 1px solid #c6c9cc;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #495057;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}

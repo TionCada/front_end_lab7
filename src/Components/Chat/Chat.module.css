@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-color: #eceff1 #FFFFFF;
+    scrollbar-width: thin;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #eceff1;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #bfc2c4;
+}
